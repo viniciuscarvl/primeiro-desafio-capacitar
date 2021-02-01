@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Top Academia</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/Logo.png">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <section id="home">
+            <nav class="menu">
+                <div class="menu-items">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#atividades">ATIVIDADES</a></li>
+                        <li><a href="#planos">PLANOS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="index.html"><img class="menu-logo" src="images/Logo.png" alt="Barra de musculacao"></a>          
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                    <div class="hero-button">
+                        <a href="#sobre"><button type="button" class="button">SAIBA MAIS!</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    <section id="sobre">
+        <img class="sobre-imagem" src="images/peso64.png" alt="Desenho de uma barra de academia">
+        <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras semper, magna vitae congue efficitur, enim risus congue urna, a blandit odio ante a odio. 
+            Sed porta pretium enim ut rutrum. Nullam sagittis libero id nulla suscipit volutpat. 
+            Mauris sit amet sem quis leo congue venenatis. 
+            Morbi odio mauris, hendrerit ac ex et, ultrices dictum felis. 
+            Vestibulum elementum arcu non elit laoreet ullamcorper. 
+            Vestibulum porttitor nulla ut neque accumsan gravida. 
+        </h2>
+        <a href="#planos"><button type="button" class="sobre-button button">Conheça os planos</button></a>
+    </section>
+
+    <section id="atividades">
+        <h3>Atividades</h3>
+        <div class="cards">
+            <div class="card-funcional card-container">
+                <div class="card-imagem-funcional card-imagem"></div>
+                <div class="card-container-texto">
+                    <div class="card-texto">FUNCIONAL</div>
+                    <div onmouseover="aparecerTextoFuncional();" onmouseout="resetFuncional();" id="js-card-funcional" class="card-texto-descricao">+SAIBA MAIS</div>
+                </div>
+            </div>
+
+            <div class="card-musculacao card-container">
+                <div class="card-imagem-musculacao card-imagem"></div>
+                <div class="card-container-texto">
+                    <div class="card-texto">MUSCULAÇÃO</div>
+                    <div onmouseover="aparecerTextoMusculacao();" onmouseout="resetMusculacao();" id="js-card-musculacao" class="card-texto-descricao">+SAIBA MAIS</div>
+                </div>
+            </div>
+
+            <div class="card-crosstraining card-container">
+                <div class="card-imagem-crosstraining card-imagem"></div>
+                <div class="card-container-texto">
+                    <div class="card-texto">CROSSTRAINING</div>
+                    <div onmouseover="aparecerTextoCrosstraining();" onmouseout="resetCrosstraining();" id="js-card-crosstraining" class="card-texto-descricao">+SAIBA MAIS</div>
+                </div>
+            </div>
+            <div class="card-pilates card-container">
+                <div class="card-imagem-pilates card-imagem"></div>
+                <div class="card-container-texto">
+                    <div class="card-texto">PILATES</div>
+                    <div onmouseover="aparecerTextoPilates();" onmouseout="resetPilates();" id="js-card-pilates" class="card-texto-descricao">+SAIBA MAIS</div>
+
+                </div>
+            </div>
+            <div class="card-dance card-container">
+                <div class="card-imagem-dance card-imagem"></div>
+                <div class="card-container-texto">
+                    <div class="card-texto">DANCE</div>
+                    <div onmouseover="aparecerTextoDance();" onmouseout="resetDance();" id="js-card-dance" class="card-texto-descricao">+SAIBA MAIS</div>
+                </div>
+            </div>
+            <div class="card-bike card-container">
+                <div class="card-imagem-bike card-imagem"></div>
+                <div class="card-container-texto">
+                    <div class="card-texto">BIKE</div>
+                    <div onmouseover="aparecerTextoBike();" onmouseout="resetBike();" id="js-card-bike" class="card-texto-descricao">+SAIBA MAIS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="planos">
+        <h4>PLANOS</h4>
+        <div class="grid-planos">
+        <div class="box-planos">
+            <div class="ciclo-pagamento">MENSAL</div>
+            <img src="images/peso64.png" class="imagem-box" alt="Imagem referente ao plano mensal contendo uma barra para levantar peso">
+            <p class="texto-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras semper, magna vitae congue efficitur, enim risus congue.</p>
+            <button type="button" class="button button-box">Comprar</button>
+        </div>
+        <div class="box-planos">
+            <div class="ciclo-pagamento">SEMESTRAL</div>
+            <img src="images/peso64.png" class="imagem-box" alt="Imagem referente ao plano semestral contendo uma barra para levantar peso">
+            <p class="texto-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras semper, magna vitae congue efficitur, enim risus congue.</p>
+            <button type="button" class="button button-box">Comprar</button>
+        </div>
+        <div class="box-planos">
+            <div class="ciclo-pagamento">ANUAL</div>
+            <img src="images/peso64.png" class="imagem-box" alt="Imagem referente ao plano anual contendo uma barra para levantar peso">
+            <p class="texto-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Cras semper, magna vitae congue efficitur, enim risus congue.</p>
+            <button type="button" class="button button-box">Comprar</button>
+        </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h5>CONTATO</h5>
+        <div class="container-contato">
+            <div class="imagem-contato"></div>
+            <form id="container-form">
+                <div class="container-inputs">
+                    <div>
+                        <input type="text" class="input input-1" onfocus="value=''" value="Nome" placeholder="Nome">
+                        <input type="text" class="input input-2" onfocus="value=''" value="Telefone" placeholder="Telefone">
+                        <input type="email" class="input input-3" onfocus="value=''" value="Email" placeholder="Email">
+                    </div>
+                    <textarea form="container-form" class="input input-mensagem" placeholder="Escreva aqui sua mensagem"></textarea>
+                </div>
+                <button class="button" type="button">Enviar</button>
+            </form>
+        </div>
+        <div class="informacoes-contato">
+            <img class="informacoes-contato-logo" src="images/Logo.png" alt="Logo">
+            
+            <img class="icone" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im00MDcuNTc5IDg3LjY3N2MtMzEuMDczLTUzLjYyNC04Ni4yNjUtODYuMzg1LTE0Ny42NC04Ny42MzctMi42Mi0uMDU0LTUuMjU3LS4wNTQtNy44NzggMC02MS4zNzQgMS4yNTItMTE2LjU2NiAzNC4wMTMtMTQ3LjY0IDg3LjYzNy0zMS43NjIgNTQuODEyLTMyLjYzMSAxMjAuNjUyLTIuMzI1IDE3Ni4xMjNsMTI2Ljk2MyAyMzIuMzg3Yy4wNTcuMTAzLjExNC4yMDYuMTczLjMwOCA1LjU4NiA5LjcwOSAxNS41OTMgMTUuNTA1IDI2Ljc3IDE1LjUwNSAxMS4xNzYgMCAyMS4xODMtNS43OTcgMjYuNzY4LTE1LjUwNS4wNTktLjEwMi4xMTYtLjIwNS4xNzMtLjMwOGwxMjYuOTYzLTIzMi4zODdjMzAuMzA0LTU1LjQ3MSAyOS40MzUtMTIxLjMxMS0yLjMyNy0xNzYuMTIzem0tMTUxLjU3OSAxNDQuMzIzYy0zOS43MDEgMC03Mi0zMi4yOTktNzItNzJzMzIuMjk5LTcyIDcyLTcyIDcyIDMyLjI5OSA3MiA3Mi0zMi4yOTggNzItNzIgNzJ6Ii8+PC9nPjwvc3ZnPg=="/>
+            <span class="informacoes-contato-dados">Logradouro, número, complemento, cidade, estado, CEP</span>
+            <img class="icone" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDc3Ljg2NyA0NzcuODY3IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NzcuODY3IDQ3Ny44Njc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNDYwLjgsNjguMjY3SDE3LjA2N2wyMjEuODY3LDE4Mi43NUw0NjMuMzA5LDY4Ljc3OUM0NjIuNDg4LDY4LjUzOSw0NjEuNjQ5LDY4LjM2OCw0NjAuOCw2OC4yNjd6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0yNDkuNzAyLDI4Ni4zMWMtNi4yODgsNS4xNDktMTUuMzM1LDUuMTQ5LTIxLjYyMywwTDAsOTguNDA2djI5NC4xMjdjMCw5LjQyNiw3LjY0MSwxNy4wNjcsMTcuMDY3LDE3LjA2N0g0NjAuOA0KCQkJYzkuNDI2LDAsMTcuMDY3LTcuNjQxLDE3LjA2Ny0xNy4wNjdWMTAwLjkzMkwyNDkuNzAyLDI4Ni4zMXoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="/>
+            <span class="informacoes-contato-dados">nome@personaltrainer.com</span>
+            <img class="icone" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzg0IDM4NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzg0IDM4NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zNTMuMTg4LDI1Mi4wNTJjLTIzLjUxLDAtNDYuNTk0LTMuNjc3LTY4LjQ2OS0xMC45MDZjLTEwLjcxOS0zLjY1Ni0yMy44OTYtMC4zMDItMzAuNDM4LDYuNDE3bC00My4xNzcsMzIuNTk0DQoJCQljLTUwLjA3My0yNi43MjktODAuOTE3LTU3LjU2My0xMDcuMjgxLTEwNy4yNmwzMS42MzUtNDIuMDUyYzguMjE5LTguMjA4LDExLjE2Ny0yMC4xOTgsNy42MzUtMzEuNDQ4DQoJCQljLTcuMjYtMjEuOTktMTAuOTQ4LTQ1LjA2My0xMC45NDgtNjguNTgzQzEzMi4xNDYsMTMuODIzLDExOC4zMjMsMCwxMDEuMzMzLDBIMzAuODEzQzEzLjgyMywwLDAsMTMuODIzLDAsMzAuODEzDQoJCQlDMCwyMjUuNTYzLDE1OC40MzgsMzg0LDM1My4xODgsMzg0YzE2Ljk5LDAsMzAuODEzLTEzLjgyMywzMC44MTMtMzAuODEzdi03MC4zMjNDMzg0LDI2NS44NzUsMzcwLjE3NywyNTIuMDUyLDM1My4xODgsMjUyLjA1MnoiDQoJCQkvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"/>
+            <span class="informacoes-contato-dados">(XX) XXXXX-XXXX </span>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <hr>
+    <div class="rodape">
+        <div class="posicao-copyright">
+            <span class="rodape-texto">Copyright &copy; 2021 Top Academia</span>
+        </div>
+        <div class="posicao-redes-sociais">
+            <img class="icone" src="data:image/svg+xml;base64,PHN2ZyBpZD0iQm9sZCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTE1Ljk5NyAzLjk4NWgyLjE5MXYtMy44MTZjLS4zNzgtLjA1Mi0xLjY3OC0uMTY5LTMuMTkyLS4xNjktMy4xNTkgMC01LjMyMyAxLjk4Ny01LjMyMyA1LjYzOXYzLjM2MWgtMy40ODZ2NC4yNjZoMy40ODZ2MTAuNzM0aDQuMjc0di0xMC43MzNoMy4zNDVsLjUzMS00LjI2NmgtMy44Nzd2LTIuOTM5Yy4wMDEtMS4yMzMuMzMzLTIuMDc3IDIuMDUxLTIuMDc3eiIvPjwvc3ZnPg=="/>
+            <span class="rodape-texto">Facebook</span>
+            <img class="icone" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMXB0IiB2aWV3Qm94PSIwIDAgNTExIDUxMS45IiB3aWR0aD0iNTExcHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTUxMC45NDkyMTkgMTUwLjVjLTEuMTk5MjE5LTI3LjE5OTIxOS01LjU5NzY1Ny00NS44OTg0MzgtMTEuODk4NDM4LTYyLjEwMTU2Mi02LjUtMTcuMTk5MjE5LTE2LjUtMzIuNTk3NjU3LTI5LjYwMTU2Mi00NS4zOTg0MzgtMTIuODAwNzgxLTEzLTI4LjMwMDc4MS0yMy4xMDE1NjItNDUuMzAwNzgxLTI5LjUtMTYuMjk2ODc2LTYuMzAwNzgxLTM0Ljg5ODQzOC0xMC42OTkyMTktNjIuMDk3NjU3LTExLjg5ODQzOC0yNy40MDIzNDMtMS4zMDA3ODEtMzYuMTAxNTYyLTEuNjAxNTYyLTEwNS42MDE1NjItMS42MDE1NjJzLTc4LjE5OTIxOS4zMDA3ODEtMTA1LjUgMS41Yy0yNy4xOTkyMTkgMS4xOTkyMTktNDUuODk4NDM4IDUuNjAxNTYyLTYyLjA5NzY1NyAxMS44OTg0MzgtMTcuMjAzMTI0IDYuNS0zMi42MDE1NjIgMTYuNS00NS40MDIzNDMgMjkuNjAxNTYyLTEzIDEyLjgwMDc4MS0yMy4wOTc2NTcgMjguMzAwNzgxLTI5LjUgNDUuMzAwNzgxLTYuMzAwNzgxIDE2LjMwMDc4MS0xMC42OTkyMTkgMzQuODk4NDM4LTExLjg5ODQzOCA2Mi4wOTc2NTctMS4zMDA3ODEgMjcuNDAyMzQzLTEuNjAxNTYyIDM2LjEwMTU2Mi0xLjYwMTU2MiAxMDUuNjAxNTYycy4zMDA3ODEgNzguMTk5MjE5IDEuNSAxMDUuNWMxLjE5OTIxOSAyNy4xOTkyMTkgNS42MDE1NjIgNDUuODk4NDM4IDExLjkwMjM0MyA2Mi4xMDE1NjIgNi41IDE3LjE5OTIxOSAxNi41OTc2NTcgMzIuNTk3NjU3IDI5LjU5NzY1NyA0NS4zOTg0MzggMTIuODAwNzgxIDEzIDI4LjMwMDc4MSAyMy4xMDE1NjIgNDUuMzAwNzgxIDI5LjUgMTYuMzAwNzgxIDYuMzAwNzgxIDM0Ljg5ODQzOCAxMC42OTkyMTkgNjIuMTAxNTYyIDExLjg5ODQzOCAyNy4yOTY4NzYgMS4yMDMxMjQgMzYgMS41IDEwNS41IDEuNXM3OC4xOTkyMTktLjI5Njg3NiAxMDUuNS0xLjVjMjcuMTk5MjE5LTEuMTk5MjE5IDQ1Ljg5ODQzOC01LjU5NzY1NyA2Mi4wOTc2NTctMTEuODk4NDM4IDM0LjQwMjM0My0xMy4zMDA3ODEgNjEuNjAxNTYyLTQwLjUgNzQuOTAyMzQzLTc0Ljg5ODQzOCA2LjI5Njg3Ni0xNi4zMDA3ODEgMTAuNjk5MjE5LTM0LjkwMjM0MyAxMS44OTg0MzgtNjIuMTAxNTYyIDEuMTk5MjE5LTI3LjMwMDc4MSAxLjUtMzYgMS41LTEwNS41cy0uMTAxNTYyLTc4LjE5OTIxOS0xLjMwMDc4MS0xMDUuNXptLTQ2LjA5NzY1NyAyMDljLTEuMTAxNTYyIDI1LTUuMzAwNzgxIDM4LjUtOC44MDA3ODEgNDcuNS04LjYwMTU2MiAyMi4zMDA3ODEtMjYuMzAwNzgxIDQwLTQ4LjYwMTU2MiA0OC42MDE1NjItOSAzLjUtMjIuNTk3NjU3IDcuNjk5MjE5LTQ3LjUgOC43OTY4NzYtMjcgMS4yMDMxMjQtMzUuMDk3NjU3IDEuNS0xMDMuMzk4NDM4IDEuNXMtNzYuNS0uMjk2ODc2LTEwMy40MDIzNDMtMS41Yy0yNS0xLjA5NzY1Ny0zOC41LTUuMjk2ODc2LTQ3LjUtOC43OTY4NzYtMTEuMDk3NjU3LTQuMTAxNTYyLTIxLjE5OTIxOS0xMC42MDE1NjItMjkuMzk4NDM4LTE5LjEwMTU2Mi04LjUtOC4zMDA3ODEtMTUtMTguMzAwNzgxLTE5LjEwMTU2Mi0yOS4zOTg0MzgtMy41LTktNy42OTkyMTktMjIuNjAxNTYyLTguNzk2ODc2LTQ3LjUtMS4yMDMxMjQtMjctMS41LTM1LjEwMTU2Mi0xLjUtMTAzLjQwMjM0M3MuMjk2ODc2LTc2LjUgMS41LTEwMy4zOTg0MzhjMS4wOTc2NTctMjUgNS4yOTY4NzYtMzguNSA4Ljc5Njg3Ni00Ny41IDQuMTAxNTYyLTExLjEwMTU2MiAxMC42MDE1NjItMjEuMTk5MjE5IDE5LjIwMzEyNC0yOS40MDIzNDMgOC4yOTY4NzYtOC41IDE4LjI5Njg3Ni0xNSAyOS4zOTg0MzgtMTkuMDk3NjU3IDktMy41IDIyLjYwMTU2Mi03LjY5OTIxOSA0Ny41LTguODAwNzgxIDI3LTEuMTk5MjE5IDM1LjEwMTU2Mi0xLjUgMTAzLjM5ODQzOC0xLjUgNjguNDAyMzQzIDAgNzYuNS4zMDA3ODEgMTAzLjQwMjM0MyAxLjUgMjUgMS4xMDE1NjIgMzguNSA1LjMwMDc4MSA0Ny41IDguODAwNzgxIDExLjA5NzY1NyA0LjA5NzY1NyAyMS4xOTkyMTkgMTAuNTk3NjU3IDI5LjM5ODQzOCAxOS4wOTc2NTcgOC41IDguMzAwNzgxIDE1IDE4LjMwMDc4MSAxOS4xMDE1NjIgMjkuNDAyMzQzIDMuNSA5IDcuNjk5MjE5IDIyLjU5NzY1NyA4LjgwMDc4MSA0Ny41IDEuMTk5MjE5IDI3IDEuNSAzNS4wOTc2NTcgMS41IDEwMy4zOTg0MzhzLS4zMDA3ODEgNzYuMzAwNzgxLTEuNSAxMDMuMzAwNzgxem0wIDAiLz48cGF0aCBkPSJtMjU2LjQ0OTIxOSAxMjQuNWMtNzIuNTk3NjU3IDAtMTMxLjUgNTguODk4NDM4LTEzMS41IDEzMS41czU4LjkwMjM0MyAxMzEuNSAxMzEuNSAxMzEuNWM3Mi42MDE1NjIgMCAxMzEuNS01OC44OTg0MzggMTMxLjUtMTMxLjVzLTU4Ljg5ODQzOC0xMzEuNS0xMzEuNS0xMzEuNXptMCAyMTYuODAwNzgxYy00Ny4wOTc2NTcgMC04NS4zMDA3ODEtMzguMTk5MjE5LTg1LjMwMDc4MS04NS4zMDA3ODFzMzguMjAzMTI0LTg1LjMwMDc4MSA4NS4zMDA3ODEtODUuMzAwNzgxYzQ3LjEwMTU2MiAwIDg1LjMwMDc4MSAzOC4xOTkyMTkgODUuMzAwNzgxIDg1LjMwMDc4MXMtMzguMTk5MjE5IDg1LjMwMDc4MS04NS4zMDA3ODEgODUuMzAwNzgxem0wIDAiLz48cGF0aCBkPSJtNDIzLjg1MTU2MiAxMTkuMzAwNzgxYzAgMTYuOTUzMTI1LTEzLjc0NjA5MyAzMC42OTkyMTktMzAuNzAzMTI0IDMwLjY5OTIxOS0xNi45NTMxMjYgMC0zMC42OTkyMTktMTMuNzQ2MDk0LTMwLjY5OTIxOS0zMC42OTkyMTkgMC0xNi45NTcwMzEgMTMuNzQ2MDkzLTMwLjY5OTIxOSAzMC42OTkyMTktMzAuNjk5MjE5IDE2Ljk1NzAzMSAwIDMwLjcwMzEyNCAxMy43NDIxODggMzAuNzAzMTI0IDMwLjY5OTIxOXptMCAwIi8+PC9zdmc+"/>
+            <span class="rodape-texto">Instagram</span>
+            <img class="icone" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik01MTIsOTcuMjQ4Yy0xOS4wNCw4LjM1Mi0zOS4zMjgsMTMuODg4LTYwLjQ4LDE2LjU3NmMyMS43Ni0xMi45OTIsMzguMzY4LTMzLjQwOCw0Ni4xNzYtNTguMDE2DQoJCQljLTIwLjI4OCwxMi4wOTYtNDIuNjg4LDIwLjY0LTY2LjU2LDI1LjQwOEM0MTEuODcyLDYwLjcwNCwzODQuNDE2LDQ4LDM1NC40NjQsNDhjLTU4LjExMiwwLTEwNC44OTYsNDcuMTY4LTEwNC44OTYsMTA0Ljk5Mg0KCQkJYzAsOC4zMiwwLjcwNCwxNi4zMiwyLjQzMiwyMy45MzZjLTg3LjI2NC00LjI1Ni0xNjQuNDgtNDYuMDgtMjE2LjM1Mi0xMDkuNzkyYy05LjA1NiwxNS43MTItMTQuMzY4LDMzLjY5Ni0xNC4zNjgsNTMuMDU2DQoJCQljMCwzNi4zNTIsMTguNzIsNjguNTc2LDQ2LjYyNCw4Ny4yMzJjLTE2Ljg2NC0wLjMyLTMzLjQwOC01LjIxNi00Ny40MjQtMTIuOTI4YzAsMC4zMiwwLDAuNzM2LDAsMS4xNTINCgkJCWMwLDUxLjAwOCwzNi4zODQsOTMuMzc2LDg0LjA5NiwxMDMuMTM2Yy04LjU0NCwyLjMzNi0xNy44NTYsMy40NTYtMjcuNTIsMy40NTZjLTYuNzIsMC0xMy41MDQtMC4zODQtMTkuODcyLTEuNzkyDQoJCQljMTMuNiw0MS41NjgsNTIuMTkyLDcyLjEyOCw5OC4wOCw3My4xMmMtMzUuNzEyLDI3LjkzNi04MS4wNTYsNDQuNzY4LTEzMC4xNDQsNDQuNzY4Yy04LjYwOCwwLTE2Ljg2NC0wLjM4NC0yNS4xMi0xLjQ0DQoJCQlDNDYuNDk2LDQ0Ni44OCwxMDEuNiw0NjQsMTYxLjAyNCw0NjRjMTkzLjE1MiwwLDI5OC43NTItMTYwLDI5OC43NTItMjk4LjY4OGMwLTQuNjQtMC4xNi05LjEyLTAuMzg0LTEzLjU2OA0KCQkJQzQ4MC4yMjQsMTM2Ljk2LDQ5Ny43MjgsMTE4LjQ5Niw1MTIsOTcuMjQ4eiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"/>
+            <span class="rodape-texto">Twitter</span>
+        </div>
+    </div>
+</footer>
+</html>

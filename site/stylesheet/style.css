@@ -1,0 +1,386 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -------------------- BODY -------------------- */
+
+body {
+    font-size: 16px;
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -------------------- BUTTONS -------------------- */
+
+.button {
+    background: #ff471a;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    outline: 0;
+}
+
+.button:hover {
+    background: #fc4619;
+    color: black;
+}
+
+/* -------------------- HEADER -------------------- */
+
+.menu-logo {
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translateX(-490px);
+}
+
+.menu {
+    background: rgb(255, 72, 26, 0.176);
+    padding: 2rem;
+    width: 1080px;
+    margin: auto;
+    opacity: 99%;
+}
+
+.menu-items {
+    margin-left: 29rem;
+}
+
+.menu .menu-items ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.menu .menu-items ul li a {
+    color: white;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.menu .menu-items ul li a:link {
+    text-decoration: none;
+}
+
+.hero .hero-text h1 {
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 14rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero {
+    margin-top: -5.21rem;
+    height: 560px;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+
+.hero-button {
+    position: absolute;
+    margin-top: 19rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* -------------------- SOBRE -------------------- */
+
+#sobre {
+    text-align: center;
+    color: gray;
+}
+
+.sobre-imagem {
+    margin-top: 2rem;    
+}
+
+#sobre h2 {
+    width: 800px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: auto;
+}
+
+#sobre .sobre-button {
+    margin-top: 2rem;
+}
+
+/* -------------------- ATIVIDADES -------------------- */
+
+#atividades h3 {
+    color: #ff471a;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 22rem 22rem;
+    justify-content: center;
+    column-gap: 4rem;
+    width: 100%;
+    background: #ececec;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+    width: 22rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.card-texto {
+    color: #ff471a;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.card-texto-descricao {
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    width: 15rem;
+    height: auto;  
+}
+
+.card-texto-descricao:hover {
+    text-align: justify;
+}
+
+.card-container-texto {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 22rem;
+}
+
+.card-imagem {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22rem;
+    height: 10rem;
+    filter: brightness(50%);
+    border-radius: 10px;
+}
+
+.cards .card-funcional .card-imagem-funcional {
+    background-image: url("../images/gym.jpeg");
+}
+
+.cards .card-musculacao .card-imagem-musculacao {
+    background-image: url("../images/musculacao.jpeg");  
+}
+
+.cards .card-crosstraining .card-imagem-crosstraining {
+    background-image: url("../images/cross.jpeg");
+}
+
+.cards .card-pilates .card-imagem-pilates {
+    background-image: url("../images/pilates.jpeg");
+}
+
+.cards .card-dance .card-imagem-dance {
+    background-image: url("../images/dance.jpeg");
+}
+
+.cards .card-bike .card-imagem-bike {
+    background-image: url("../images/bike.jpeg");
+}
+
+/* -------------------- PLANOS -------------------- */
+
+#planos h4 {
+    color: #ff471a;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+
+.grid-planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 7rem;
+    margin-bottom: 10rem;
+}
+
+.box-planos {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.box-planos:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.ciclo-pagamento {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: darkslategray;   
+}
+
+.imagem-box { 
+    margin-bottom: 2rem;
+}
+
+.texto-box {
+    color: gray;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 7.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.button-box {
+    margin-bottom: 1rem;
+}
+
+/* -------------------- CONTATO -------------------- */
+
+#contato {
+    text-align: center;
+    background: #ececec;
+    width: 1080px;
+    margin: auto;
+}
+
+#contato h5 {
+    position: absolute;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#container-form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -240px;
+}
+
+#contato .container-contato .container-inputs {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    column-gap: 2rem;
+}
+
+#contato .container-contato .imagem-contato {
+    background-image: url("../images/contato.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 306px;
+    width: 1080px;
+    margin: auto;
+}
+
+.input {
+    color: gray;
+    border-radius: 8px;
+    height: 2rem;
+    width: 380px;
+    margin-bottom: 1rem;
+    padding: 5px;
+    outline: 0;
+    font-size: 0.8rem;
+}
+
+.input-mensagem {
+    height: 8rem;
+    resize: none;
+}
+
+.informacoes-contato {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.informacoes-contato-dados {
+    margin-left: 5px;
+}
+
+.icone {
+    width: 1.1rem;
+    margin-left: 60px;
+}
+
+/* -------------------- RODAPÉ -------------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+    margin: auto;
+    width: 1080px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 55rem;
+}
+
+.rodape-texto {
+    font-size: 0.7rem;
+    padding: 1rem;
+}
+
+.rodape .icone {
+    margin-right: -10px;    
+}
+
+hr {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55rem;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.posicao-copyright {
+    margin-left: -15px;   
+}
+
+.posicao-redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+
