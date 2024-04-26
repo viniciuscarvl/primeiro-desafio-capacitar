@@ -1,4 +1,8 @@
-# PrimeiroDesafioCapacitar
-Site One Page para academia “TopAcademia”.
+# Simple gym website
 
-Desenvolvimento de site para o programa de capacitação da Poli Júnior Engenharia.
+Simple gym website made for a training program of Poli Júnior Engenharia, a Junior Enterprise of Universidade de Pernambuco.
+
+Used technologies:
+- HTML5;
+- CSS3;
+- JavaScript.
